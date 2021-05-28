@@ -1,0 +1,6 @@
+﻿{{ Model.ContentItem | display_url }}
+
+{{Model.ContentItem | json}}
+
+{{ Model.ContentItem.Content.BlogPost.Image.Paths.first  | asset_url | img_tag }}
+

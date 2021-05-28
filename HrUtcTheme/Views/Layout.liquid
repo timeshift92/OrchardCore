@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ Culture.Name }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ "PageTitle" | shape_new | shape_stringify }}</title>
+    {% resources type: "Meta" %}
+    {% link type:"image/x-icon", rel:"shortcut icon", href:"~/HrUtcTheme/favicon.ico" %}
+    
+    {% style name:"HrUtcTheme-main", version:"1" %}  
+    {% style name:"HrUtcTheme-vendor", version:"1" %}  
+    
+    
+    {% script name:"HrUtcTheme-vendor", at:"Foot" %}
+    {% script name:"HrUtcTheme-main", at:"Foot" %}    
+    
+    {% resources type: "HeadScript" %}
+    {% resources type: "HeadLink" %}
+    {% resources type: "Stylesheet" %}
+    {% render_section "HeadMeta", required: false %}
+</head>
+<body  dir="{{ Culture.Dir }}">
+      <div class="wrapper">     
+    {% render_section "Header", required: false %}
+	{% render_section "Messages", required: false %}
+    {% render_section "Content" %}
+    {% render_section "Footer", required: false %}
+    {% resources type: "FootScript" %}
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+    <UserSecretsId>b05e6778-5520-4e71-bfff-29e400f08e00</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-rc2-16234" />
+    <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-rc2-16234" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HrModule\HrModule.csproj" />
+    <ProjectReference Include="..\HrUtcTheme\HrUtcTheme.csproj" />
+    <ProjectReference Include="..\OrchardCore.Cms.Module1\OrchardCore.Cms.Module1.csproj" />
+  </ItemGroup>
+
+</Project>

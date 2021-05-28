@@ -1,0 +1,1027 @@
+{
+  "ContentTypeDefinitionRecords": [
+    {
+      "Name": "Menu",
+      "DisplayName": "Menu",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "TitlePart",
+          "Name": "TitlePart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "AliasPart",
+          "Name": "AliasPart",
+          "Settings": {
+            "AliasPartSettings": {
+              "Pattern": "{{ ContentItem | display_text | slugify }}"
+            },
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        },
+        {
+          "PartName": "MenuPart",
+          "Name": "MenuPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "2"
+            }
+          }
+        },
+        {
+          "PartName": "MenuItemsListPart",
+          "Name": "MenuItemsListPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "LinkMenuItem",
+      "DisplayName": "Link Menu Item",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "MenuItem"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "LinkMenuItemPart",
+          "Name": "LinkMenuItemPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "LinkMenuItem",
+          "Name": "LinkMenuItem",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ContentMenuItem",
+      "DisplayName": "Content Menu Item",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "MenuItem"
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "ContentMenuItemPart",
+          "Name": "ContentMenuItemPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "ContentMenuItem",
+          "Name": "ContentMenuItem",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "HtmlMenuItem",
+      "DisplayName": "Html Menu Item",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "MenuItem"
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "HtmlMenuItemPart",
+          "Name": "HtmlMenuItemPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "HtmlMenuItem",
+          "Name": "HtmlMenuItem",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Html",
+      "DisplayName": "Html",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true,
+          "Stereotype": "Widget",
+          "Securable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Html",
+          "Name": "Html",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "HtmlBodyPart",
+          "Name": "HtmlBodyPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1",
+              "Editor": "Monaco"
+            },
+            "HtmlBodyPartSettings": {},
+            "HtmlBodyPartMonacoEditorSettings": {
+              "Options": "{\r\n  \"automaticLayout\": true,\r\n  \"language\": \"html\"\r\n}"
+            },
+            "ContentIndexSettings": {}
+          }
+        },
+        {
+          "PartName": "WidgetsListPart",
+          "Name": "WidgetsListPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Form",
+      "DisplayName": "Form",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "Widget"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "TitlePart",
+          "Name": "TitlePart",
+          "Settings": {
+            "TitlePartSettings": {
+              "RenderTitle": false
+            },
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "FormElementPart",
+          "Name": "FormElementPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        },
+        {
+          "PartName": "FormPart",
+          "Name": "FormPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "FlowPart",
+          "Name": "FlowPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "Label",
+      "DisplayName": "Label",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "Widget"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "TitlePart",
+          "Name": "TitlePart",
+          "Settings": {
+            "TitlePartSettings": {
+              "RenderTitle": false
+            }
+          }
+        },
+        {
+          "PartName": "FormElementPart",
+          "Name": "FormElementPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "LabelPart",
+          "Name": "LabelPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "Input",
+      "DisplayName": "Input",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "Widget"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "FormInputElementPart",
+          "Name": "FormInputElementPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "FormElementPart",
+          "Name": "FormElementPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "InputPart",
+          "Name": "InputPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "TextArea",
+      "DisplayName": "Text Area",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "Widget"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "FormInputElementPart",
+          "Name": "FormInputElementPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "FormElementPart",
+          "Name": "FormElementPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "TextAreaPart",
+          "Name": "TextAreaPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "Select",
+      "DisplayName": "Select",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "Widget"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "FormInputElementPart",
+          "Name": "FormInputElementPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "FormElementPart",
+          "Name": "FormElementPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "SelectPart",
+          "Name": "SelectPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "Button",
+      "DisplayName": "Button",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "Widget"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "FormInputElementPart",
+          "Name": "FormInputElementPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "FormElementPart",
+          "Name": "FormElementPart",
+          "Settings": {}
+        },
+        {
+          "PartName": "ButtonPart",
+          "Name": "ButtonPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "ValidationSummary",
+      "DisplayName": "Validation Summary",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "Widget"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "ValidationSummaryPart",
+          "Name": "ValidationSummaryPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "Validation",
+      "DisplayName": "Validation",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "Widget"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "ValidationPart",
+          "Name": "ValidationPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "Pages",
+      "DisplayName": "Pages",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true,
+          "Securable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Pages",
+          "Name": "Pages",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        },
+        {
+          "PartName": "AutoroutePart",
+          "Name": "AutoroutePart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "2"
+            },
+            "AutoroutePartSettings": {
+              "AllowCustomPath": true,
+              "ShowHomepageOption": true
+            },
+            "ContentIndexSettings": {}
+          }
+        },
+        {
+          "PartName": "TitlePart",
+          "Name": "TitlePart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "LiquidPart",
+          "Name": "LiquidPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "Liquid",
+      "DisplayName": "Liquid",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true,
+          "Stereotype": "Widget",
+          "Securable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Liquid",
+          "Name": "Liquid",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "LiquidPart",
+          "Name": "LiquidPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Quizz",
+      "DisplayName": "Quizz",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true,
+          "Securable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Quizz",
+          "Name": "Quizz",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        },
+        {
+          "PartName": "HtmlBodyPart",
+          "Name": "HtmlBodyPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "2"
+            }
+          }
+        },
+        {
+          "PartName": "TitlePart",
+          "Name": "TitlePart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "BagPart",
+          "Name": "Question",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "DisplayName": "Question",
+              "Description": "Provides a collection behavior for your content item where you can place other content items.",
+              "Position": "3"
+            },
+            "BagPartSettings": {
+              "ContainedContentTypes": [
+                "Question"
+              ]
+            },
+            "ContentIndexSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Question",
+      "DisplayName": "Question",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Question",
+          "Name": "Question",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "TitlePart",
+          "Name": "TitlePart",
+          "Settings": {
+            "ContentTypePartSettings": {},
+            "ContentIndexSettings": {},
+            "TitlePartSettings": {
+              "Options": 2,
+              "Pattern": "{{ Model.ContentItem.Content.Question.Question.Html | raw  }}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Taxonomy",
+      "DisplayName": "Taxonomy",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "TitlePart",
+          "Name": "TitlePart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        },
+        {
+          "PartName": "AliasPart",
+          "Name": "AliasPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "2"
+            },
+            "AliasPartSettings": {
+              "Pattern": "{{ Model.ContentItem | display_text | slugify }}"
+            }
+          }
+        },
+        {
+          "PartName": "AutoroutePart",
+          "Name": "AutoroutePart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "3"
+            },
+            "AutoroutePartSettings": {
+              "Pattern": "{{ Model.ContentItem | display_text | slugify }}",
+              "AllowRouteContainedItems": true
+            }
+          }
+        },
+        {
+          "PartName": "TaxonomyPart",
+          "Name": "TaxonomyPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Direction",
+      "DisplayName": "Direction",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true,
+          "Securable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Direction",
+          "Name": "Direction",
+          "Settings": {}
+        },
+        {
+          "PartName": "TitlePart",
+          "Name": "TitlePart",
+          "Settings": {}
+        },
+        {
+          "PartName": "BagPart",
+          "Name": "Question",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "DisplayName": "Quizz",
+              "Description": "Provides a collection behavior for your content item where you can place other content items."
+            },
+            "BagPartSettings": {
+              "ContainedContentTypes": [
+                "Quizz"
+              ]
+            },
+            "ContentIndexSettings": {}
+          }
+        },
+        {
+          "PartName": "LocalizationPart",
+          "Name": "LocalizationPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "Person",
+      "DisplayName": "Person",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true,
+          "Securable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Person",
+          "Name": "Person",
+          "Settings": {}
+        }
+      ]
+    }
+  ],
+  "ContentPartDefinitionRecords": [
+    {
+      "Name": "LiquidPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a Liquid formatted body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "CommonPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides an editor for the common properties of a content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "AliasPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a way to define custom aliases for content items."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "AutoroutePart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a custom url for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "PreviewPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a way to define the url that is used to render your content item for preview. You only need to use this for the content preview feature when running the frontend decoupled from the admin."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "WidgetsListPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a way to add widgets to Layout zones for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "FlowPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a customizable body for your content item where you can build a content structure with widgets."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "BagPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Reusable": true,
+          "Description": "Provides a collection behavior for your content item where you can place other content items."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "HtmlBodyPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides an HTML Body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "ListPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Add a list behavior."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "MarkdownBodyPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a Markdown formatted body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "TitlePart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a Title for your content item.",
+          "DefaultPosition": "0"
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "MenuPart",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "MenuItemPart",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "LinkMenuItemPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a menu link behavior for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "ContentMenuItemPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "DisplayName": "Content Menu Item",
+          "Description": "Provides a menu link behavior with the Content Picker for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "ContentPickerField",
+          "Name": "SelectedContentItem",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Selected Content Item",
+              "Position": "0"
+            },
+            "ContentPickerFieldSettings": {
+              "Required": true,
+              "DisplayAllContentTypes": true,
+              "DisplayedContentTypes": []
+            },
+            "ContentIndexSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "HtmlMenuItemPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "DisplayName": "Html Menu Item",
+          "Description": "Provides a menu link behavior with a field to display html for the link text."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "FormPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Turns your content item into a form."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "FormElementPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Description": "Provides attributes common to all form elements."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "FormInputElementPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Description": "Provides attributes common to all input form elements."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "LabelPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Description": "Provides label properties."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "InputPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Description": "Provides input field properties."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "TextAreaPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Description": "Provides text area properties."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "SelectPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Description": "Provides select field properties."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "ButtonPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Description": "Provides button properties."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "ValidationSummaryPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Description": "Displays a validation summary."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "ValidationPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Description": "Displays a field validation error."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "Question",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "HtmlField",
+          "Name": "Question",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Question",
+              "Position": "0"
+            },
+            "HtmlFieldSettings": {},
+            "ContentIndexSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Quizz",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "NumericField",
+          "Name": "RightAnswer",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "RightAnswer",
+              "Position": "0"
+            },
+            "NumericFieldSettings": {
+              "Required": true
+            },
+            "ContentIndexSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "LocalizationPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a way to create localized version of content."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    }
+  ],
+  "Identifier": "46pqh2ercx3d8r5xfedebxp7xs"
+}

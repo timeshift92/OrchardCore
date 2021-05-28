@@ -1,0 +1,34 @@
+[
+  {
+    "copy": true,
+    "inputs": [
+      "Assets/*"
+    ],
+    "output": "wwwroot/assets/@"
+  },
+  {
+    "inputs": [
+      "Assets/css/main.css"
+    ],
+    "output": "wwwroot/css/main.css"
+  },
+  {
+    "inputs": [
+      "Assets/css/vendor.css"
+    ],
+    "output": "wwwroot/css/vendor.css"
+  },
+  {
+    "inputs": [
+      "Assets/js/main.js"
+    ],
+    "output": "wwwroot/js/main.js"
+  },
+  {
+    "inputs": [
+      "Assets/js/vendor.js"
+    ],
+    "output": "wwwroot/js/vendor.js"
+  }
+
+]
