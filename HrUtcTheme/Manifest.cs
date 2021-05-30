@@ -4,7 +4,7 @@ using OrchardCore.DisplayManagement.Manifest;
     Name = "HrUtcTheme",
     Author = "Timeshift",
     Website = "tscorp.uz",
-    Version = "0.0.1",
+    Version = "2.0.0",
     Description = "HrUtcTheme",
     Tags = new[] { "Bootstrap", "Landing page", "Liquid" }
 )]

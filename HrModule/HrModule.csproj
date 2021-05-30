@@ -11,6 +11,8 @@
 
   <ItemGroup>
     <PackageReference Include="OrchardCore.ContentFields" Version="1.0.0-rc2-16234" />
+    <PackageReference Include="OrchardCore.Flows" Version="1.0.0-rc2-16234" />
+    <PackageReference Include="OrchardCore.Lists" Version="1.0.0-rc2-16234" />
     <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-16234" />
     <PackageReference Include="OrchardCore.ContentManagement" Version="1.0.0-rc2-16234" />
     <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.0.0-rc2-16234" />

@@ -30,7 +30,7 @@ namespace HrModule.Migrations
 
             );
 
-            return 1;
+            return 0;
         }
     }
 

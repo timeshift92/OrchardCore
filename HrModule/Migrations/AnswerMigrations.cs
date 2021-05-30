@@ -18,7 +18,8 @@ namespace HrModule.Migrations
 
         public AnswerMigrations(IContentDefinitionManager contentDefinitionManager) =>
             _contentDefinitionManager = contentDefinitionManager;
-
+    
+        public int UpdateFrom1() { return 1; }
         public int Create()
         {
             _contentDefinitionManager.AlterPartDefinition(nameof(AnswerPart), part => part
@@ -37,7 +38,7 @@ namespace HrModule.Migrations
 
            );
 
-            return 1;
+            return 0;
         }
     }
 }

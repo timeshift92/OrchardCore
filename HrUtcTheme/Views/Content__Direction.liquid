@@ -1,0 +1,124 @@
+{% assign direction = Model.ContentItem.Content %}
+<li class="job-item">
+    <a href="#" class="job-btn d-flex" data-toggle="modal" data-target="#{{ Model.ContentItem }}">
+        <span class="job-icon {{ direction.Direction.Icon.Text }}"></span>
+        <span class="job-title">{{ direction.TitlePart.Title }}</span>
+    </a>
+</li>
+<div class="modal fade" id="{{ Model.ContentItem }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <div class="modal-title">Вакансия<span>тестирование</span></div>
+                <p class="marked"><span>программист на</span><br><span>Python</span></p>
+                <pre>
+                    <code> {{ Model.ContentItem | json:true }} </code>
+                </pre>
+                <form>
+                    <div class="question active">
+                        <div class="question-title">1. Что выведет следующий код?</div>
+                        <div class="question-text">d = lambda p: p * 2<br>t = lambda p: p * 3<br>x = 2<br>x = d(x)<br>x
+                            =
+                            t(x)<br>x = d(x)<br>print(x)
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="answers">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="q1-answer" id="q1-answer1"
+                                               value="24"
+                                               checked>
+                                        <label class="form-check-label" for="q1-answer1">24</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="q1-answer" id="q1-answer2"
+                                               value="48">
+                                        <label class="form-check-label" for="q1-answer2">48</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="q1-answer" id="q1-answer3"
+                                               value="36">
+                                        <label class="form-check-label" for="q1-answer3">36</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="q1-answer" id="q1-answer4"
+                                               value="7">
+                                        <label class="form-check-label" for="q1-answer4">7</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"><a class="btn btn-next" href="#">Далее</a></div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question-title">2. Что выведет следующий код?</div>
+                        <div class="question-text">d = lambda p: p * 2<br>t = lambda p: p * 3</div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="q2-answer" id="q2-answer1"
+                                           value="24" checked>
+                                    <label class="form-check-label" for="q2-answer1">24</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="q2-answer" id="q2-answer2"
+                                           value="48">
+                                    <label class="form-check-label" for="q2-answer2">48</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="q2-answer" id="q2-answer3"
+                                           value="36">
+                                    <label class="form-check-label" for="q2-answer3">36</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="q2-answer" id="q2-answer4"
+                                           value="7">
+                                    <label class="form-check-label" for="q2-answer4">7</label>
+                                </div>
+                            </div>
+                            <div class="col-auto"><a class="btn btn-prev" href="#">Назад</a><a class="btn btn-next"
+                                                                                               href="#">Далее</a></div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question-title">3. Что выведет следующий код?</div>
+                        <div class="question-text">d = lambda p: p * 2</div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="q3-answer" id="q3-answer1"
+                                           value="24" checked>
+                                    <label class="form-check-label" for="q3-answer1">24</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="q3-answer" id="q3-answer2"
+                                           value="48">
+                                    <label class="form-check-label" for="q3-answer2">48</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="q3-answer" id="q3-answer3"
+                                           value="36">
+                                    <label class="form-check-label" for="q3-answer3">36</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="q3-answer" id="q3-answer4"
+                                           value="7">
+                                    <label class="form-check-label" for="q3-answer4">7</label>
+                                </div>
+                            </div>
+                            <div class="col-auto"><a class="btn btn-prev" href="#">Назад</a>
+                                <button class="btn btn-finish" type="submit">Завершить</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% scriptblock at: "Foot" %}
+generateQuizClickHandler("#{{ Model.ContentItem }}")
+{% endscriptblock %}

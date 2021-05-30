@@ -13,10 +13,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="OrchardCore.ContentFields" Version="1.0.0-rc2-16234" />
     <PackageReference Include="OrchardCore.ContentManagement" Version="1.0.0-rc2-16248" />
     <PackageReference Include="OrchardCore.Theme.Targets" Version="1.0.0-rc2-16248" />
     <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-rc2-16248" />
     <PackageReference Include="OrchardCore.ResourceManagement.Abstractions" Version="1.0.0-rc2-16248" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Recipes\Snippets\footer.html" />
   </ItemGroup>
 
 </Project>

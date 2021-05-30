@@ -17,9 +17,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Helpful-Extensions\Lombiq.HelpfulExtensions.csproj" />
     <ProjectReference Include="..\HrModule\HrModule.csproj" />
     <ProjectReference Include="..\HrUtcTheme\HrUtcTheme.csproj" />
     <ProjectReference Include="..\OrchardCore.Cms.Module1\OrchardCore.Cms.Module1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\QuestionNumericField_EditShape.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\_ViewImports.cshtml" />
   </ItemGroup>
 
 </Project>

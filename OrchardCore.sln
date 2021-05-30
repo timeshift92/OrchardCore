@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HrUtcTheme", "HrUtcTheme\Hr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrModule", "HrModule\HrModule.csproj", "{B5FED749-0648-42FC-82B1-F81007701FA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lombiq.HelpfulExtensions", "Helpful-Extensions\Lombiq.HelpfulExtensions.csproj", "{3BB402B7-B2ED-4EF0-BB73-3C0D0F1A95F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B5FED749-0648-42FC-82B1-F81007701FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5FED749-0648-42FC-82B1-F81007701FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5FED749-0648-42FC-82B1-F81007701FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB402B7-B2ED-4EF0-BB73-3C0D0F1A95F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB402B7-B2ED-4EF0-BB73-3C0D0F1A95F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB402B7-B2ED-4EF0-BB73-3C0D0F1A95F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB402B7-B2ED-4EF0-BB73-3C0D0F1A95F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

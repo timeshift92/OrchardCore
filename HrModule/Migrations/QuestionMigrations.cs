@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OrchardCore.Flows.Models;
+using OrchardCore.Lists.Models;
 
 namespace HrModule.Migrations
 {
@@ -23,6 +25,12 @@ namespace HrModule.Migrations
         {
             _contentDefinitionManager.AlterPartDefinition(nameof(QuestionPart), part => part
             .Attachable()
+            
+            .WithField(nameof(QuestionPart.Answers),field => field
+                .WithDisplayName("Answers")
+                .OfType(nameof(ListPart))
+                .WithSettings(new ListPartSettings(){ ContainedContentTypes = new[] {"Answer"}})
+            )
             .WithField(nameof(QuestionPart.Question), field => field
             .OfType(nameof(HtmlField))
             .WithDisplayName("Question")
@@ -35,11 +43,13 @@ namespace HrModule.Migrations
             _contentDefinitionManager.AlterTypeDefinition("QuestionPage", type => type
           .Creatable()
           .Listable()
+          .WithPart(nameof(BagPart),part => part
+              .WithSettings(new BagPartSettings(){ ContainedContentTypes = new string[] {"AnswerPage"}}))
           .WithPart(nameof(QuestionPart))
           );
 
 
-            return 1;
+            return 0;
         }
     }
 }
