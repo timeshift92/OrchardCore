@@ -8,40 +8,42 @@
                 </div>
             </div>
             <div class="col-auto">
-               {{ Culture.List}}
-              	{% if Culture.Name == 'en-CA' %}
-                <div class="lang">
-                  <a href="/">O'ZB</a>
-                  <a href="/ru">РУС</a>
-                  <a href="/en" class="active">EN</a>
-                </div>
-               {%endif%}
-              {% if Culture.Name == 'ru-RU' %}
-                <div class="lang">
-                  <a href="/">O'ZB</a>
-                  <a href="/ru" class="active">РУС</a>
-                  <a href="/en" >EN</a>
-                </div>
-               {%endif%}
-              {% if Culture.Name == 'uz' %}
-                <div class="lang">
-                  <a href="/"  class="active">O'ZB</a>
-                  <a href="/ru">РУС</a>
-                  <a href="/en" >EN</a>
-                </div>
-               {%endif%}
-              
+                {{ Culture.List }}
+                {% if Culture.Name == 'en-CA' %}
+                    <div class="lang">
+                        <a href="/">O'ZB</a>
+                        <a href="/ru">РУС</a>
+                        <a href="/en" class="active">EN</a>
+                    </div>
+                {% endif %}
+                {% if Culture.Name == 'ru-RU' %}
+                    <div class="lang">
+                        <a href="/">O'ZB</a>
+                        <a href="/ru" class="active">РУС</a>
+                        <a href="/en">EN</a>
+                    </div>
+                {% endif %}
+                {% if Culture.Name == 'uz' %}
+                    <div class="lang">
+                        <a href="/" class="active">O'ZB</a>
+                        <a href="/ru">РУС</a>
+                        <a href="/en">EN</a>
+                    </div>
+                {% endif %}
+
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="header-content">
-          
+
             {% assign title = Model.ContentItem.Content.TitlePart.Title | split: " " %}
             <div class="title"><strong>{{ title[0] }}</strong>{{ title[1] }}</div>
             <div class="text"> {{ Model.ContentItem.Content.Page.InviteText.Text }} </div>
-            <div class="slogan">{{ Model.ContentItem.Content.Page.Contact.Text }}<br/><span>{{ Model.ContentItem.Content.Page.Email.Text }}</span> <br/>
-                <a class="btn" href="#" data-toggle="modal" data-target="#startup">{{ Model.ContentItem.Content.Page.ButtonTitle.Text }}
+            <div class="slogan">{{ Model.ContentItem.Content.Page.Contact.Text }}
+                <br/><span>{{ Model.ContentItem.Content.Page.Email.Text }}</span> <br/>
+                <a class="btn" href="#" data-toggle="modal"
+                   data-target="#startup">{{ Model.ContentItem.Content.Page.ButtonTitle.Text }}
                 </a>
             </div>
         </div>
@@ -51,19 +53,20 @@
 
 
 {% if Model.ContentItem.Content.BagPart.ContentItems.size > 0 %}
-	<section class="jobs">
-      <ul class="jobs-list">
-      
-          {% for direction in Model.ContentItem.Content.BagPart.ContentItems %}
-        
-          
-        {{ direction | shape_build_display: "Detail" | shape_render }}
-       
-        
-          {% endfor %}
-      </ul>
-      	<p>Пройдите небольшой тест, оставьте свои контактные данные и возможно именно Вы получите работу мечты в
-        	нашей компании!</p>
+    <section class="jobs">
+        <ul class="jobs-list">
+            {% assign items = Model.ContentItem.Content.BagPart.ContentItems %}
+            {% for direction in items limit: 5 %}
+                {{ direction | shape_build_display: "Detail" | shape_render }}
+            {% endfor %}
+        </ul>
+        <ul class="jobs-list">
+            {% for direction in items  offset: 5 %}
+                {{ direction | shape_build_display: "Detail" | shape_render }}
+            {% endfor %}
+        </ul>
+        <p>Пройдите небольшой тест, оставьте свои контактные данные и возможно именно Вы получите работу мечты в
+            нашей компании!</p>
     </section>
 {% endif %}
 
