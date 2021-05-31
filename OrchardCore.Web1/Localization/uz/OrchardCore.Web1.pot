@@ -1,0 +1,13 @@
+#: C:\PROJECTS\Learn\OrchardCore\OrchardCore.Web1\Views\QuestionNumericField_EditShape.cshtml:22
+#. <option value="">@T["None"]</option>
+#: C:\PROJECTS\Learn\OrchardCore\OrchardCore.Web1\Views\QuestionNumericField_EditShape.cshtml:38
+#. var nullOpt =   '<option value="">@T["None"]</option>';
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\OrchardCore.Web1\\Views\\QuestionNumericField_EditShape"
+msgid "None"
+msgstr ""
+
+#: OrchardCore.Web1\Views\Content__Page.liquid:0
+msgctxt "OrchardCore.Web1\\Views\\Content__Page"
+msgid "Full Name"
+msgstr "Fish"
+

@@ -12,12 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="OrchardCore.DisplayManagement.Liquid" Version="1.0.0-rc2-16261" />
     <PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-rc2-16234" />
     <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-rc2-16234" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Helpful-Extensions\Lombiq.HelpfulExtensions.csproj" />
+    <ProjectReference Include="..\HelpfulExtensions\Lombiq.HelpfulExtensions.csproj" />
     <ProjectReference Include="..\HrModule\HrModule.csproj" />
     <ProjectReference Include="..\HrUtcTheme\HrUtcTheme.csproj" />
     <ProjectReference Include="..\OrchardCore.Cms.Module1\OrchardCore.Cms.Module1.csproj" />

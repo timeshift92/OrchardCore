@@ -33,8 +33,11 @@
         <span class="hint">@settings.Hint</span>
     }
 </div>
-<script at="Foot">
 
+
+
+<script at="Foot">
+        console.log(this);
         var nullOpt =   '<option value="">@T["None"]</option>';
         var selectElem = $('#Question_RightAnswer_Value')
         function reRenderOptions(){

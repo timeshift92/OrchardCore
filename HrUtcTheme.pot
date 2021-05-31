@@ -1,0 +1,10 @@
+#: HrUtcTheme\Views\Shared\NotFound.liquid:0
+msgctxt "HrUtcTheme\\Views\\Shared\\NotFound"
+msgid "404 Page Not Found"
+msgstr ""
+
+#: HrUtcTheme\Views\Shared\NotFound.liquid:0
+msgctxt "HrUtcTheme\\Views\\Shared\\NotFound"
+msgid "The page you requested could not be found."
+msgstr ""
+

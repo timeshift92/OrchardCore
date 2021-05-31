@@ -1,0 +1,523 @@
+#: Etch.OrchardCore.Fields\Colour\AdminMenu.cs:25
+#. .Add(S["Configuration"], configuration => configuration
+msgctxt "Etch.OrchardCore.Fields.Colour.AdminMenu"
+msgid "Configuration"
+msgstr ""
+
+#: Etch.OrchardCore.Fields\Colour\AdminMenu.cs:26
+#. .Add(S["Settings"], settings => settings
+msgctxt "Etch.OrchardCore.Fields.Colour.AdminMenu"
+msgid "Settings"
+msgstr ""
+
+#: Etch.OrchardCore.Fields\Colour\AdminMenu.cs:27
+#. .Add(S["Colours"], S["Colours"].PrefixPosition(), layers => layers
+#: Etch.OrchardCore.Fields\Colour\AdminMenu.cs:27
+#. .Add(S["Colours"], S["Colours"].PrefixPosition(), layers => layers
+msgctxt "Etch.OrchardCore.Fields.Colour.AdminMenu"
+msgid "Colours"
+msgstr ""
+
+#: Etch.OrchardCore.Fields\Dictionary\Drivers\DictionaryFieldDisplayDriver.cs:82
+#. updater.ModelState.AddModelError($"{Prefix}.{nameof(model.Data)}", T["You must specify at least {0} items.", settings.MinEntries]);
+msgctxt "Etch.OrchardCore.Fields.Dictionary.Drivers.DictionaryFieldDisplayDriver"
+msgid "You must specify at least {0} items."
+msgstr ""
+
+#: Etch.OrchardCore.Fields\Dictionary\Drivers\DictionaryFieldDisplayDriver.cs:87
+#. updater.ModelState.AddModelError($"{Prefix}.{nameof(model.Data)}", T["You can specify at most {0} items.", settings.MaxEntries]);
+msgctxt "Etch.OrchardCore.Fields.Dictionary.Drivers.DictionaryFieldDisplayDriver"
+msgid "You can specify at most {0} items."
+msgstr ""
+
+#: Etch.OrchardCore.Fields\Eventbrite\AdminMenu.cs:27
+#. .Add(T["Configuration"], configuration => configuration
+msgctxt "Etch.OrchardCore.Fields.Eventbrite.AdminMenu"
+msgid "Configuration"
+msgstr ""
+
+#: Etch.OrchardCore.Fields\Eventbrite\AdminMenu.cs:28
+#. .Add(T["API"], settings => settings
+msgctxt "Etch.OrchardCore.Fields.Eventbrite.AdminMenu"
+msgid "API"
+msgstr ""
+
+#: Etch.OrchardCore.Fields\Eventbrite\AdminMenu.cs:29
+#. .Add(T["Eventbrite API"], T["Eventbrite API"], layers => layers
+#: Etch.OrchardCore.Fields\Eventbrite\AdminMenu.cs:29
+#. .Add(T["Eventbrite API"], T["Eventbrite API"], layers => layers
+msgctxt "Etch.OrchardCore.Fields.Eventbrite.AdminMenu"
+msgid "Eventbrite API"
+msgstr ""
+
+#: Etch.OrchardCore.Fields\ResponsiveMedia\Drivers\ResponsiveMediaFieldDisplayDriver.cs:88
+#. updater.ModelState.AddModelError(Prefix, S["{0}: Media is required.", context.PartFieldDefinition.DisplayName()]);
+msgctxt "Etch.OrchardCore.Fields.ResponsiveMedia.Drivers.ResponsiveMediaFieldDisplayDriver"
+msgid "{0}: Media is required."
+msgstr ""
+
+#: Etch.OrchardCore.Fields\ResponsiveMedia\Settings\ResponsiveMediaFieldSettingsDriver.cs:59
+#. context.Updater.ModelState.AddModelError(Prefix, T["Failed to parse breakpoints, make sure it only contains numeric values."]);
+msgctxt "Etch.OrchardCore.Fields.ResponsiveMedia.Settings.ResponsiveMediaFieldSettingsDriver"
+msgid "Failed to parse breakpoints, make sure it only contains numeric values."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\CodeFieldSettings.Edit.cshtml:13
+#. <label asp-for="Language">@T["Language"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\CodeFieldSettings.Edit"
+msgid "Language"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourField.Edit.cshtml:44
+#. <p class="hint">@T["Transparent"]</p>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourField.Edit"
+msgid "Transparent"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourField.Edit.cshtml:52
+#. <p class="hint">@T["Specify custom"]</p>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourField.Edit"
+msgid "Specify custom"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:9
+#. <label class="custom-control-label" asp-for="UseGlobalColours">@T["Use Site Colour Palette"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Use Site Colour Palette"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:10
+#. <span class="hint">@T["Use colours defined within site settings."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Use colours defined within site settings."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:17
+#. <label asp-for="Colours">@T["Colours"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Colours"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:27
+#. <label class="custom-control-label" asp-for="AllowTransparent">@T["Allow Transparent"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Allow Transparent"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:28
+#. <span class="hint">@T["Include option for choosing transparent as a colour."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Include option for choosing transparent as a colour."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:37
+#. <label class="custom-control-label" asp-for="AllowCustom">@T["Allow Custom"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Allow Custom"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:38
+#. <span class="hint">@T["Include ability to specify custom colour."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Include ability to specify custom colour."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:45
+#. <label asp-for="DefaultValue">@T["Default Value"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Default Value"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:47
+#. <span class="hint">@T["Default value when no colour has been defined."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Default value when no colour has been defined."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:53
+#. <label asp-for="Hint">@T["Hint"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "Hint"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourFieldSettings.Edit.cshtml:55
+#. <span class="hint">@T["The hint text to display for this field on the editor."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourFieldSettings.Edit"
+msgid "The hint text to display for this field on the editor."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\Shared\ColoursEditor.cshtml:44
+#. <p v-if="!hasEntries" class="hint">@T["No colours yet, add one below."]</p>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\Shared\\ColoursEditor"
+msgid "No colours yet, add one below."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\Shared\ColoursEditor.cshtml:46
+#. <button v-on:click="add" class="btn btn-secondary btn-sm" type="button" :disabled="false"><span class="fa fa-plus">&nbsp;</span> @T["Add Colour"]</button>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\Shared\\ColoursEditor"
+msgid "Add Colour"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourSettings.Edit.cshtml:7
+#. <label asp-for="Colours">@T["Colours"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourSettings.Edit"
+msgid "Colours"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ColourSettings.Edit.cshtml:11
+#. <p class="hint">@T["Define colour palette used by colour fields configured to use global settings."]</p>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ColourSettings.Edit"
+msgid "Define colour palette used by colour fields configured to use global settings."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryField.Edit.cshtml:51
+#. <p v-if="!hasEntries" class="hint">@T["No entries yet, add one below"]</p>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryField.Edit"
+msgid "No entries yet, add one below"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryField.Edit.cshtml:52
+#. <p v-if="!hasMinEntries" class="alert alert-warning">@T["You need at least {0} entries", Model.MinEntries]</p>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryField.Edit"
+msgid "You need at least {0} entries"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryField.Edit.cshtml:53
+#. <p v-if="isMaxEntries" class="alert alert-warning">@T["Max number of {0} entries reacted", Model.MaxEntries]</p>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryField.Edit"
+msgid "Max number of {0} entries reacted"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryField.Edit.cshtml:55
+#. <button v-on:click="add" class="btn btn-primary" type="button" :disabled="isMaxEntries === true"><span class="fa fa-plus">&nbsp;</span> @T["Add"]</button>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryField.Edit"
+msgid "Add"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryFieldSettings.Edit.cshtml:18
+#. <label asp-for="DefaultData">@T["Default values"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryFieldSettings.Edit"
+msgid "Default values"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryFieldSettings.Edit.cshtml:19
+#. <span class="hint">@T["Values that will be present on a new content item"]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryFieldSettings.Edit"
+msgid "Values that will be present on a new content item"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryFieldSettings.Edit.cshtml:45
+#. <label asp-for="MinEntries">@T["Minimum Entries"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryFieldSettings.Edit"
+msgid "Minimum Entries"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryFieldSettings.Edit.cshtml:47
+#. <span class="hint">@T["Minimum number of name/values that must be specified."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryFieldSettings.Edit"
+msgid "Minimum number of name/values that must be specified."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryFieldSettings.Edit.cshtml:52
+#. <label asp-for="MaxEntries">@T["Maximum Entries"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryFieldSettings.Edit"
+msgid "Maximum Entries"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryFieldSettings.Edit.cshtml:54
+#. <span class="hint">@T["Maximum number of name/values that can be specified."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryFieldSettings.Edit"
+msgid "Maximum number of name/values that can be specified."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryFieldSettings.Edit.cshtml:60
+#. <label asp-for="Hint">@T["Hint"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryFieldSettings.Edit"
+msgid "Hint"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\DictionaryFieldSettings.Edit.cshtml:62
+#. <span class="hint">@T["The hint text to display for this field on the editor."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\DictionaryFieldSettings.Edit"
+msgid "The hint text to display for this field on the editor."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\EventbriteField.Edit.cshtml:5
+#. <label asp-for="Value">@T["Event Id"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\EventbriteField.Edit"
+msgid "Event Id"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\EventbriteField.Edit.cshtml:8
+#. <span class="hint">@T["Event Id or Event Dashboard link for the event (e.g. https://www.eventbrite.co.uk/myevent?eid=50902591020)"]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\EventbriteField.Edit"
+msgid "Event Id or Event Dashboard link for the event (e.g. https://www.eventbrite.co.uk/myevent?eid=50902591020)"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\EventbriteField.Edit.cshtml:15
+#. <p><a href="@Model.Field.Data.Url">@T["View {0} on Eventbrite", Model.Field.Data.Name]</a>.</p>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\EventbriteField.Edit"
+msgid "View {0} on Eventbrite"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\EventbriteField.Unconfigured.cshtml:4
+#. <a asp-route-area="OrchardCore.Settings" asp-controller="Admin" asp-action="Index" asp-route-groupId="@Constants.SettingsGroupId" asp-route-returnUrl="@FullRequestPath">@T["Please specify Eventbrite API key to use for field."]</a>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\EventbriteField.Unconfigured"
+msgid "Please specify Eventbrite API key to use for field."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ManageEventbriteSettings.Edit.cshtml:4
+#. <label asp-for="PrivateToken">@T["Private Token"] <span asp-validation-for="PrivateToken"></span></label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ManageEventbriteSettings.Edit"
+msgid "Private Token"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ManageEventbriteSettings.Edit.cshtml:6
+#. <span class="hint">@T["This can be generated on the <a href=\"{0}\">Eventbrite Platform</a>.", "https://www.eventbrite.co.uk/platform/api-keys/"]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ManageEventbriteSettings.Edit"
+msgid "This can be generated on the <a href=\"{0}\">Eventbrite Platform</a>."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\MultiSelectField.Edit.cshtml:24
+#. <a href="~/Admin/ContentParts/@Model.PartFieldDefinition.PartDefinition.Name/Fields/@Model.PartFieldDefinition.Name/Edit?returnUrl=@FullRequestPath">@T["Please specify at least one option."]</a>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\MultiSelectField.Edit"
+msgid "Please specify at least one option."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\MultiSelectFieldSettings.Edit.cshtml:32
+#. <label for="@Html.IdFor(m => m.Options)_NewValue" class="sr-only">@T["New Option"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\MultiSelectFieldSettings.Edit"
+msgid "New Option"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\MultiSelectFieldSettings.Edit.cshtml:33
+#. <input type="text" class="form-control w-100" id="@Html.IdFor(m => m.Options)_NewValue" placeholder="@T["Enter a new option"]" v-model="newValue" v-on:keydown.enter.prevent="add">
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\MultiSelectFieldSettings.Edit"
+msgid "Enter a new option"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\MultiSelectFieldSettings.Edit.cshtml:35
+#. <button type="button" class="btn btn-primary btn-sm" v-on:click="add">@T["Add"]</button>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\MultiSelectFieldSettings.Edit"
+msgid "Add"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\MultiSelectFieldSettings.Edit.cshtml:53
+#. <p v-if="!hasValues" class="hint">@T["Currently no options have been added."]</p>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\MultiSelectFieldSettings.Edit"
+msgid "Currently no options have been added."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\MultiSelectFieldSettings.Edit.cshtml:59
+#. <label asp-for="Hint">@T["Hint"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\MultiSelectFieldSettings.Edit"
+msgid "Hint"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\MultiSelectFieldSettings.Edit.cshtml:61
+#. <span class="hint">@T["The hint text to display for this field on the editor."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\MultiSelectFieldSettings.Edit"
+msgid "The hint text to display for this field on the editor."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\NavigationItemText-colours.Id.cshtml:1
+#. <span class="icon"><i class="fa fa-palette" aria-hidden="true"></i></span><span class="title">@T["Colours"]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\NavigationItemText-colours.Id"
+msgid "Colours"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\QueryField.Edit.cshtml:0
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\QueryField.Edit"
+msgid "- Select query -"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\RenderAliasField.Edit.cshtml:5
+#. <label asp-for="Alias">@T["Alias"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\RenderAliasField.Edit"
+msgid "Alias"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\RenderAliasField.Edit.cshtml:7
+#. <span class="hint">@T["Alias to find the content item that should be rendered. Set by adding the Alias part to a content type."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\RenderAliasField.Edit"
+msgid "Alias to find the content item that should be rendered. Set by adding the Alias part to a content type."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\RenderAliasField.Edit.cshtml:13
+#. <label asp-for="DisplayType">@T["Display type"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\RenderAliasField.Edit"
+msgid "Display type"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\RenderAliasField.Edit.cshtml:15
+#. <span class="hint">@T["Display type to use when rendering the item. e.g.: Detail, Summary"]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\RenderAliasField.Edit"
+msgid "Display type to use when rendering the item. e.g.: Detail, Summary"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaField.Edit.cshtml:52
+#. <h5 class="modal-title">@T["Enter media text"]</h5>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaField.Edit"
+msgid "Enter media text"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaField.Edit.cshtml:63
+#. <button type="button" class="btn btn-primary" data-dismiss="modal">@T["OK"]</button>
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaField.Edit.cshtml:84
+#. <button type="button" class="btn btn-primary mediaFieldSelectButton">@T["OK"]</button>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaField.Edit"
+msgid "OK"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaField.Edit.cshtml:64
+#. <button type="button" class="btn btn-secondary" v-on:click="cancelMediaTextModal">@T["Cancel"]</button>
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaField.Edit.cshtml:85
+#. <button type="button" class="btn btn-secondary" data-dismiss="modal">@T["Cancel"]</button>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaField.Edit"
+msgid "Cancel"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaField.Edit.cshtml:75
+#. <h5 class="modal-title">@T["Select Media"]</h5>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaField.Edit"
+msgid "Select Media"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaField.Unconfigured.cshtml:9
+#. <a asp-action="EditField" asp-controller="Admin" asp-route-area="OrchardCore.ContentTypes" asp-route-id="@Model.PartFieldDefinition.PartDefinition.Name" asp-route-name="@Model.PartFieldDefinition.Name" asp-route-returnUrl="@FullRequestPath">@T["Please specify responsive breakpoints for field."]</a>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaField.Unconfigured"
+msgid "Please specify responsive breakpoints for field."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:20
+#. <label asp-for="Breakpoints">@T["Breakpoints"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Breakpoints"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:22
+#. <span class="hint">@T["Comma separated list of breakpoints (e.g. \"200, 400, 600\")."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Comma separated list of breakpoints (e.g. \"200, 400, 600\")."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:30
+#. <label class="custom-control-label" asp-for="Required">@T["Required"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Required"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:31
+#. <span class="hint">@T["Whether a media is required."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Whether a media is required."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:40
+#. <label class="custom-control-label" asp-for="Multiple">@T["Multiple"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Multiple"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:41
+#. <span class="hint">@T["Whether multiple media can be selected."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Whether multiple media can be selected."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:50
+#. <label class="custom-control-label" asp-for="AllowMediaText">@T["Allow Media Text"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Allow Media Text"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:51
+#. <span class="hint">@T["Whether alternate text can be defined for media."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Whether alternate text can be defined for media."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:58
+#. <label asp-for="Hint">@T["Hint"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Hint"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:60
+#. <span class="hint">@T["The hint text to display for this field on the editor."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "The hint text to display for this field on the editor."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:93
+#. <h5 class="modal-title">@T["Select Media"]</h5>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Select Media"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:102
+#. <button type="button" class="btn btn-primary mediaFieldSelectButton">@T["OK"]</button>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "OK"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:103
+#. <button type="button" class="btn btn-secondary" data-dismiss="modal">@T["Cancel"]</button>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "Cancel"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ResponsiveMediaFieldSettings.Edit.cshtml:111
+#. <div class="alert alert-warning" role="alert">@T["You'll be able to define default image once breakpoints have been added."]</div>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ResponsiveMediaFieldSettings.Edit"
+msgid "You'll be able to define default image once breakpoints have been added."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ValuesField.Edit.cshtml:40
+#. <label for="@Html.IdFor(m => m.Data)_NewValue" class="sr-only">@T["New Value"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ValuesField.Edit"
+msgid "New Value"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ValuesField.Edit.cshtml:43
+#. <button type="button" class="btn btn-primary btn-sm" v-on:click="add">@T["Add"]</button>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ValuesField.Edit"
+msgid "Add"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ValuesFieldSettings.Edit.cshtml:5
+#. <label asp-for="Hint">@T["Hint"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ValuesFieldSettings.Edit"
+msgid "Hint"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ValuesFieldSettings.Edit.cshtml:7
+#. <span class="hint">@T["The hint text to display for this field on the editor."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ValuesFieldSettings.Edit"
+msgid "The hint text to display for this field on the editor."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ValuesFieldSettings.Edit.cshtml:13
+#. <label asp-for="EmptyMessage">@T["Empty Collection Message"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ValuesFieldSettings.Edit"
+msgid "Empty Collection Message"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ValuesFieldSettings.Edit.cshtml:15
+#. <span class="hint">@T["Content displayed when no items have been added."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ValuesFieldSettings.Edit"
+msgid "Content displayed when no items have been added."
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ValuesFieldSettings.Edit.cshtml:21
+#. <label asp-for="NewItemPlaceholder">@T["New item input placeholder"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ValuesFieldSettings.Edit"
+msgid "New item input placeholder"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\Etch.OrchardCore.Fields\Views\ValuesFieldSettings.Edit.cshtml:23
+#. <span class="hint">@T["Placeholder content in text input for adding new item."]</span>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\Etch.OrchardCore.Fields\\Views\\ValuesFieldSettings.Edit"
+msgid "Placeholder content in text input for adding new item."
+msgstr ""
+

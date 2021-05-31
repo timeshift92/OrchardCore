@@ -129,11 +129,11 @@
         ]
       }
     ],
-    "SubDirections_Edit": [
+    "ContentPart_Edit": [
       {
-        "place": "Parts:0#SubDirections;0",
+        "place": "Parts:0%Media;0",
         "displayType": null,
-        "differentiator": null,
+        "differentiator": "BagPart",
         "alternates": null,
         "wrappers": null,
         "shape": null,
@@ -141,20 +141,7 @@
           "Direction"
         ]
       }
-    ],
-    "Direction_Edite": [
-      {
-        "place": "Parts:0#SubDirections;0",
-        "displayType": null,
-        "differentiator": null,
-        "alternates": null,
-        "wrappers": null,
-        "shape": null,
-        "contentType": [
-          "Page"
-        ]
-      }
     ]
   },
-  "Identifier": "48y6asdfqq6chr4t7wkr24gbma"
+  "Identifier": "433y2v9xt7hn0tqc36eqwnrfnh"
 }

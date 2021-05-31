@@ -1,0 +1,30 @@
+#: HelpfulExtensions\Extensions\CodeGeneration\CodeGenerationDisplayDriver.cs:138
+#. return T["\"FIX ME! Couldn't determine the actual type to instantiate.\" {0}", jObject.ToString()];
+msgctxt "Lombiq.HelpfulExtensions.Extensions.CodeGeneration.CodeGenerationDisplayDriver"
+msgid "\"FIX ME! Couldn't determine the actual type to instantiate.\" {0}"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\HelpfulExtensions\Views\AdditionalStylingPart.Edit.cshtml:4
+#. <button type="button" title="@T["Settings"]" class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\HelpfulExtensions\\Views\\AdditionalStylingPart.Edit"
+msgid "Settings"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\HelpfulExtensions\Views\AdditionalStylingPart.Edit.cshtml:9
+#. <label asp-for="CustomClasses" class="form-check-label">@T["Custom classes"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\HelpfulExtensions\\Views\\AdditionalStylingPart.Edit"
+msgid "Custom classes"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\HelpfulExtensions\Views\AdditionalStylingPart.Edit.cshtml:14
+#. <label class="form-check-label" asp-for="RemoveGridExtensionClasses">@T["Remove grid extension classes"]</label>
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\HelpfulExtensions\\Views\\AdditionalStylingPart.Edit"
+msgid "Remove grid extension classes"
+msgstr ""
+
+#: C:\PROJECTS\Learn\OrchardCore\HelpfulExtensions\Views\ContentTypeMigrations.Edit.cshtml:8
+#. @T["Toggle showing generated migration code"]
+msgctxt "C:\\PROJECTS\\Learn\\OrchardCore\\HelpfulExtensions\\Views\\ContentTypeMigrations.Edit"
+msgid "Toggle showing generated migration code"
+msgstr ""
+

@@ -13,9 +13,6 @@
                             aria-hidden="true">&times;</span></button>
                 <div class="modal-title">Вакансия<span>тестирование</span></div>
                 <p class="marked"><span>программист на</span><br><span>Python</span></p>
-                <pre>
-                    <code> {{ Model.ContentItem | json:true }} </code>
-                </pre>
                 <form>
                     <div class="question active">
                         <div class="question-title">1. Что выведет следующий код?</div>
@@ -119,6 +116,7 @@
     </div>
 </div>
 
+
 {% scriptblock at: "Foot" %}
-generateQuizClickHandler("#{{ Model.ContentItem }}")
+generateQuizClickHandler("#{{ Model.ContentItem | raw }}")
 {% endscriptblock %}
