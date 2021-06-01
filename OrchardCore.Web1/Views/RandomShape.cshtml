@@ -1,0 +1,9 @@
+﻿@using OrchardCore.ContentFields.Settings
+@{
+    int min = (int)Model.Min;
+    int max = (int)Model.Max;
+    Random number = new Random();
+    var nmb =  number.Next(min, max);
+}
+
+@nmb
